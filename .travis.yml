@@ -1,4 +1,6 @@
 language: objective-c
 before_install:
   - cd EKAlgorithmsApp
-script: make test
+script: make travis
+
+
