@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		837694E675674E939717AE33 /* libPods-EKAlgorithmsSpecs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 111A445C94AF425EA521CE0F /* libPods-EKAlgorithmsSpecs.a */; };
+		8605863F18EB535F0026144F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8605863E18EB535F0026144F /* MapKit.framework */; };
+		8605864118EB53660026144F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8605864018EB53660026144F /* CoreLocation.framework */; };
 		8639830118EB450800CCBFFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8639830018EB450800CCBFFB /* Foundation.framework */; };
 		8639830418EB450800CCBFFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8639830318EB450800CCBFFB /* main.m */; };
 		8639830818EB450800CCBFFB /* EKAlgorithmsApp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8639830718EB450800CCBFFB /* EKAlgorithmsApp.1 */; };
@@ -65,6 +67,8 @@
 /* Begin PBXFileReference section */
 		111A445C94AF425EA521CE0F /* libPods-EKAlgorithmsSpecs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EKAlgorithmsSpecs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAE5C905772408C99BF5FCF /* Pods-EKAlgorithmsSpecs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EKAlgorithmsSpecs.xcconfig"; path = "Pods/Pods-EKAlgorithmsSpecs.xcconfig"; sourceTree = "<group>"; };
+		8605863E18EB535F0026144F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		8605864018EB53660026144F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		863982FD18EB450800CCBFFB /* EKAlgorithmsApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EKAlgorithmsApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		8639830018EB450800CCBFFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8639830318EB450800CCBFFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8605864118EB53660026144F /* CoreLocation.framework in Frameworks */,
+				8605863F18EB535F0026144F /* MapKit.framework in Frameworks */,
 				8639836A18EB45A600CCBFFB /* XCTest.framework in Frameworks */,
 				837694E675674E939717AE33 /* libPods-EKAlgorithmsSpecs.a in Frameworks */,
 			);
@@ -177,6 +183,8 @@
 		863982FF18EB450800CCBFFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8605864018EB53660026144F /* CoreLocation.framework */,
+				8605863E18EB535F0026144F /* MapKit.framework */,
 				8639830018EB450800CCBFFB /* Foundation.framework */,
 				8639836918EB45A600CCBFFB /* XCTest.framework */,
 				111A445C94AF425EA521CE0F /* libPods-EKAlgorithmsSpecs.a */,
