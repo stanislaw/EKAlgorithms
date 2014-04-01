@@ -1,11 +1,9 @@
 
-travis: install test
-
 install:
 	gem install cocoapods --no-ri --no-rdoc --verbose
-	gem install xcpretty --xcprettyno-ri --no-rdoc
+	gem install xcpretty  --no-ri --no-rdoc --verbose
 	pod install --verbose
 
-test:
+ci:
 	xcodebuild -workspace EKAlgorithmsApp.xcworkspace/ -scheme EKAlgorithmsSpecs test
 	
