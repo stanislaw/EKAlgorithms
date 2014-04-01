@@ -10,8 +10,6 @@
 		837694E675674E939717AE33 /* libPods-EKAlgorithmsSpecs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 111A445C94AF425EA521CE0F /* libPods-EKAlgorithmsSpecs.a */; };
 		8605863F18EB535F0026144F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8605863E18EB535F0026144F /* MapKit.framework */; };
 		8605864118EB53660026144F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8605864018EB53660026144F /* CoreLocation.framework */; };
-		8605864318EB5D000026144F /* MapKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8605863E18EB535F0026144F /* MapKit.framework */; };
-		8605864418EB5EF50026144F /* CoreLocation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8605864018EB53660026144F /* CoreLocation.framework */; };
 		8639830118EB450800CCBFFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8639830018EB450800CCBFFB /* Foundation.framework */; };
 		8639830418EB450800CCBFFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8639830318EB450800CCBFFB /* main.m */; };
 		8639830818EB450800CCBFFB /* EKAlgorithmsApp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8639830718EB450800CCBFFB /* EKAlgorithmsApp.1 */; };
@@ -54,17 +52,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8605864218EB5CCA0026144F /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 16;
-			files = (
-				8605864418EB5EF50026144F /* CoreLocation.framework in CopyFiles */,
-				8605864318EB5D000026144F /* MapKit.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		863982FB18EB450800CCBFFB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,7 +400,6 @@
 				8639836518EB45A600CCBFFB /* Frameworks */,
 				8639836618EB45A600CCBFFB /* Resources */,
 				AD63EE8DFD2444A6AE207916 /* Copy Pods Resources */,
-				8605864218EB5CCA0026144F /* CopyFiles */,
 			);
 			buildRules = (
 			);
