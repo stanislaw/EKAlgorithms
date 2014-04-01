@@ -1,4 +1,2 @@
 language: objective-c
-xcode_project: EKAlgorithmsApp/EKAlgorithmsApp.xcodeproj
-xcode_scheme: MyNewProjectTests
-
+script: make
