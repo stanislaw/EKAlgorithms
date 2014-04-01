@@ -1,2 +1,4 @@
 language: objective-c
-script: make
+before_install:
+  - cd EKAlgorithmsApp
+script: make test
