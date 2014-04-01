@@ -2,7 +2,7 @@ language: objective-c
 
 before_install:
   - cd EKAlgorithmsApp
-
+	- gem install cocoapods --no-ri --no-rdoc --verbose
 script: make travis
 
 
