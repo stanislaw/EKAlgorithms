@@ -183,8 +183,8 @@
 		863982FF18EB450800CCBFFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8605864018EB53660026144F /* CoreLocation.framework */,
 				8605863E18EB535F0026144F /* MapKit.framework */,
+				8605864018EB53660026144F /* CoreLocation.framework */,
 				8639830018EB450800CCBFFB /* Foundation.framework */,
 				8639836918EB45A600CCBFFB /* XCTest.framework */,
 				111A445C94AF425EA521CE0F /* libPods-EKAlgorithmsSpecs.a */,
