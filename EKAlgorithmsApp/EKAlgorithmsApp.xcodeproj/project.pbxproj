@@ -11,6 +11,7 @@
 		8605863F18EB535F0026144F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8605863E18EB535F0026144F /* MapKit.framework */; };
 		8605864118EB53660026144F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8605864018EB53660026144F /* CoreLocation.framework */; };
 		8605864318EB5D000026144F /* MapKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8605863E18EB535F0026144F /* MapKit.framework */; };
+		8605864418EB5EF50026144F /* CoreLocation.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8605864018EB53660026144F /* CoreLocation.framework */; };
 		8639830118EB450800CCBFFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8639830018EB450800CCBFFB /* Foundation.framework */; };
 		8639830418EB450800CCBFFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8639830318EB450800CCBFFB /* main.m */; };
 		8639830818EB450800CCBFFB /* EKAlgorithmsApp.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 8639830718EB450800CCBFFB /* EKAlgorithmsApp.1 */; };
@@ -57,8 +58,9 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
-			dstSubfolderSpec = 10;
+			dstSubfolderSpec = 16;
 			files = (
+				8605864418EB5EF50026144F /* CoreLocation.framework in CopyFiles */,
 				8605864318EB5D000026144F /* MapKit.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
