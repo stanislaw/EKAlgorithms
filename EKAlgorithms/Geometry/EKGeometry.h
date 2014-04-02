@@ -9,8 +9,7 @@
 #ifndef EKAlgorithmsApp_EKGeometry_h
 #define EKAlgorithmsApp_EKGeometry_h
 
-#import <MapKit/MapKit.h>
-
+#import "MKGeometryForOSX.h"
 
 /**
  Find quadrant which a given point is distributed to from a center of a given map rect

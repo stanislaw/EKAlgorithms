@@ -1,6 +1,6 @@
 #import "SpecHelpers.h"
 
-#import <MapKit/MapKit.h>
+#import "MKGeometryForOSX.h"
 
 #import "NSArray+EKStuff.h"
 #import "NSArray+EKGeometry.h"
