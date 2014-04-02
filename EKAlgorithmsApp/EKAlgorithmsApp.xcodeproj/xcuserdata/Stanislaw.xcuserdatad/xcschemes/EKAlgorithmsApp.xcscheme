@@ -9,14 +9,14 @@
          <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "NO">
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "860586DE18EC3A760026144F"
-               BuildableName = "EKAlgorithmsSpecs.xctest"
-               BlueprintName = "EKAlgorithmsSpecs"
+               BlueprintIdentifier = "860586C918EC3A650026144F"
+               BuildableName = "EKAlgorithmsApp"
+               BlueprintName = "EKAlgorithmsApp"
                ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,17 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "860586DE18EC3A760026144F"
-               BuildableName = "EKAlgorithmsSpecs.xctest"
-               BlueprintName = "EKAlgorithmsSpecs"
-               ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "860586C918EC3A650026144F"
+            BuildableName = "EKAlgorithmsApp"
+            BlueprintName = "EKAlgorithmsApp"
+            ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
@@ -49,6 +48,15 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "860586C918EC3A650026144F"
+            BuildableName = "EKAlgorithmsApp"
+            BlueprintName = "EKAlgorithmsApp"
+            ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -58,6 +66,15 @@
       useCustomWorkingDirectory = "NO"
       buildConfiguration = "Release"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "860586C918EC3A650026144F"
+            BuildableName = "EKAlgorithmsApp"
+            BlueprintName = "EKAlgorithmsApp"
+            ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
