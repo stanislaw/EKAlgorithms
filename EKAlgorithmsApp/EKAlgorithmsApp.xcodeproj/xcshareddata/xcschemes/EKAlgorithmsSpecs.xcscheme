@@ -14,7 +14,7 @@
             buildForAnalyzing = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "860586DE18EC3A760026144F"
+               BlueprintIdentifier = "8602E98218EC44920044E1AB"
                BuildableName = "EKAlgorithmsSpecs.xctest"
                BlueprintName = "EKAlgorithmsSpecs"
                ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "860586DE18EC3A760026144F"
+               BlueprintIdentifier = "8602E98218EC44920044E1AB"
                BuildableName = "EKAlgorithmsSpecs.xctest"
                BlueprintName = "EKAlgorithmsSpecs"
                ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "860586C918EC3A650026144F"
+               BlueprintIdentifier = "8602E96D18EC44840044E1AB"
                BuildableName = "EKAlgorithmsApp"
                BlueprintName = "EKAlgorithmsApp"
                ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">
@@ -28,11 +28,21 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8602E98218EC44920044E1AB"
+               BuildableName = "EKAlgorithmsSpecs.xctest"
+               BlueprintName = "EKAlgorithmsSpecs"
+               ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "860586C918EC3A650026144F"
+            BlueprintIdentifier = "8602E96D18EC44840044E1AB"
             BuildableName = "EKAlgorithmsApp"
             BlueprintName = "EKAlgorithmsApp"
             ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">
@@ -51,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "860586C918EC3A650026144F"
+            BlueprintIdentifier = "8602E96D18EC44840044E1AB"
             BuildableName = "EKAlgorithmsApp"
             BlueprintName = "EKAlgorithmsApp"
             ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">
@@ -69,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "860586C918EC3A650026144F"
+            BlueprintIdentifier = "8602E96D18EC44840044E1AB"
             BuildableName = "EKAlgorithmsApp"
             BlueprintName = "EKAlgorithmsApp"
             ReferencedContainer = "container:EKAlgorithmsApp.xcodeproj">
