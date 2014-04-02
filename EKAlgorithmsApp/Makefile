@@ -5,5 +5,5 @@ install:
 	pod install
 
 ci:
-	xcodebuild -workspace EKAlgorithmsApp.xcworkspace/ -scheme EKAlgorithmsSpecs test
+	xcodebuild -workspace EKAlgorithmsApp.xcworkspace/ -scheme EKAlgorithmsSpecs -sdk macosx -configuration Release test
 	
